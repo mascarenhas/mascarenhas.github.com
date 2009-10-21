@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h3 class="entry-header">{{ page.title }}</h3>
+
+<div class="entry">
+    <div class="entry-content">
+        <div class="entry-body">
+	  {{ page.content }}
+        </div>
+    </div>
+    <div class="entry-footer">
+    <span class="post-footers">
+        Posted by <a href="{{ page.author_url }}">{{ page.author }}</a> on {{ page.date | date_to_long_string }}
+ {% if page.previous %}
+    <span class="separator">|</span> &larr; <a href="{{ page.previous.url }}" title="Previous: {{ page.previous.title }}">{{ page.previous.title }}</a>
+ {% endif %}
+   {% if page.next %}
+    <span class="separator">|</span> &rarr; <a href="{{ page.next.url }}" title="Next: {{ page.next.title }}">{{ page.next.title }}</a>
+  {% endif %}
+    </span> 
+    <span class="separator">|</span> <a class="permalink" href="{{ page.url }}">Permalink</a>
+    </div>
+</div>
+
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/mascarenhas/embed.js"></script><noscript><a href="http://disqus.com/forums/mascarenhas/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+

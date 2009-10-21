@@ -1,0 +1,19 @@
+---
+layout: post
+title: Welcome
+author_url: http://www.linkedin.com/pub/fabio-mascarenhas/a/b32/5a6
+author: Fabio Mascarenhas
+---
+
+[LuaRocks 2.0](http://www.luarocks.org) has just been released, and I decided this is a great
+time to do a major refactoring of the [Kepler](http://www.keplerproject.org) project. I have been updating some of the
+infrastrucuture modules this week, and now have turned my attention to [WSAPI](http://github.com/keplerproject/wsapi),
+where I created a new launcher that launches a [Xavante](http://keplerproject.github.com/xavante) instance
+to run WSAPI applications without having to mess around with `kepler_init.lua`, `xavante/config.lua`,
+and the rest of the Kepler infrastructure. My goal is to phase away the current Kepler packages, and keep
+just the installer as an easy way to install a self-contained Lua+LuaRocks installation.
+
+I hope the changes are going to streamline the process of installing and using WSAPI and specially
+[Orbit](http://github.com/keplerproject/orbit), and result in less confusion for new users by leaving
+CGILua as an entirely separate thing. As part of these changes I have decided to start this blog to
+organize my thoughts about the future of Kepler in particular and web development using Lua in general.

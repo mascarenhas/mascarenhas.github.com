@@ -1,0 +1,28 @@
+---
+layout: default
+title: Orbiter
+blurb: Just Another Blog
+---
+
+<h1>All Posts</h1>
+
+<div>&nbsp;</div>
+
+{% for post in site.posts  %}
+    <h2 class="date-header">{{ post.date | date_to_long_string }}</h2>
+    <div class="entry">
+    <h3 class="entry-header"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <div class="entry-content">
+        <div class="entry-body">
+	  {{ post.content }}
+        </div>
+    </div>
+    <div class="entry-footer">
+    <span class="post-footers">
+        Posted by <a href="{{ post.author_url }}">{{ post.author }}</a>
+    </span> 
+    <span class="separator">|</span> <a class="permalink" href="{{ post.url }}#disqus_thread"></a>
+    </div>
+    </div>
+{% endfor %}
+

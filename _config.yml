@@ -10,4 +10,8 @@ links:
     name: Kepler Project
   - url: http://orbit.luaforge.net
     name: Orbit
+  - url: http://sputnik.freewisdom.org
+    name: Sputnik
+  - url: http://blog.njclarke.com
+    name: Norman Clarke
 paginate: 10

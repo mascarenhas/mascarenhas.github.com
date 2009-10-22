@@ -28,17 +28,7 @@ first new feature is more control over the `lfs.dir` iterator, adding `next` and
 control the iteration explicitly (instead of only through a `for` loop). A simple example that
 lists all files in the current directory up to a file named `foo`:
 
-<blockquote>
-{% highlight lua %}
-local iter, dir = lfs.dir('.')
-local file = dir:next()
-while file and file ~= 'foo' do
-  print(file)
-  file = dir:next()
-end
-dir:close()
-{% endhighlight %}
-</blockquote>
+<script src="http://gist.github.com/215706.js"></script>
 
 The other feature added to LuaFileSystem 1.5.0 is directory locking via `lfs.lock_dir`. This function
 takes a path and atomically checks if a lock file exists in that path and creates one if it does not

@@ -15,8 +15,9 @@ more than a second, enough to break the edit-test flow. But monkeypatching comes
 
 This script, `luarocks_ln.lua`, is a specialized version of `luarocks make` that symlinks files from your
 source tree instead of copying them. So run it on a project you want to hack and all your edits in the
-source tree are immediately reflected in code ran in your development environment. After you are done
-just do a regular `luarocks make` and everything does back to normal.
+source tree are immediately reflected in code ran in your development environment. It works for both
+Lua source modules and any scripts that your project installs. Just do a regular `luarocks make`
+after your hacking session is done and everything does back to normal.
 
 Notice that this is a pretty big hack that may break other LuaRocks commands, so do a regular `luarocks make`
 before running any of them. Use this script only as a way to speed up your edit-test cycles. Obviously it

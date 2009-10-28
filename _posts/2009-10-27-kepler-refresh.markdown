@@ -40,7 +40,7 @@ There are also a installer that replaces the old `kepler-install`. It is `wsapi-
 available standalone [here](http://cloud.github.com/downloads/keplerproject/wsapi/wsapi-install-1.2)
 and as an all-in-one tarball (for offline installation) 
 [here](http://cloud.github.com/downloads/keplerproject/wsapi/wsapi-aio-install-1.2.tar.gz). This
-installer works like the old kepler-install, but installs Lua 5.1.4, LuaRocks 2.1, and the
+installer works like the old kepler-install, but installs Lua 5.1.4, LuaRocks 2.0.1, and the
 *wsapi-xavante* rock and its dependencies. The old *kepler-\** rocks won't be updated for LuaRocks 2.
 
 I am preparing a release of Orbit that includes the Orbit Pages launcher and examples that used to

@@ -20,7 +20,7 @@ is available.
 
 This is "Hello World" example of how you can use this in an Orbit application:
 
-<script src="http://gist.github.com/222620.js"></script>
+<script src="http://gist.github.com/222642.js"></script>
 
 You need to have [LPEG](http://www.inf.puc-rio.br/~roberto/lpeg) installed, just a matter of `luarocks install lpeg`. 
 

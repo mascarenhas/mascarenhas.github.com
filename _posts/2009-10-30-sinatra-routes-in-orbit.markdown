@@ -5,7 +5,7 @@ author_url: http://www.linkedin.com/pub/fabio-mascarenhas/a/b32/5a6
 author: Fabio Mascarenhas
 ---
 
-[Orbit 2.1.0](http://keplerproject.github.com/orbit) dispatcher now accepts anything that answers to a `match`
+[Orbit 2.1.0](http://keplerproject.github.com/orbit)'s dispatcher now accepts anything that answers to a `match`
 method for its routing patterns and returns a list of captures, instead of just strings that it interprets as
 standard Lua patterns. This means that you can now easily plug other kinds of pattern matchers, with the
 caveat that you only have the `PATH_INFO` available for matching.

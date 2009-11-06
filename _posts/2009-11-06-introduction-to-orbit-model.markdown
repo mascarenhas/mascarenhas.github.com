@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to `orbit.model`
+title: Introduction to <code>orbit.model</code>
 author_url: http://www.linkedin.com/pub/fabio-mascarenhas/a/b32/5a6
 author: Fabio Mascarenhas
 ---

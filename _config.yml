@@ -8,7 +8,7 @@ links:
     name: Lablua
   - url: http://www.keplerproject.org
     name: Kepler Project
-  - url: http://orbit.luaforge.net
+  - url: http://keplerproject.github.com/orbit
     name: Orbit
   - url: http://sputnik.freewisdom.org
     name: Sputnik

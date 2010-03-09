@@ -2,12 +2,16 @@ title: Orbiter
 blurb: Lua web development news and snippets 
 pygments: true
 links:
+  - url: http://github.com/mascarenhas
+    name: Me at Github
   - url: http://www.lua.org
     name: Lua Language
   - url: http://www.lua.inf.puc-rio.br
     name: Lablua
   - url: http://www.keplerproject.org
     name: Kepler Project
+  - url: http://github.com/keplerproject
+    name: Kepler at Github
   - url: http://keplerproject.github.com/orbit
     name: Orbit
   - url: http://sputnik.freewisdom.org

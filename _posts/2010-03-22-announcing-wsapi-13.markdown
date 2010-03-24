@@ -25,7 +25,7 @@ changes and bug fixes. This is the changelog:
   period after which a state becomes stale
 * Fixed bug in wsapi.ringer that didn't let you use wsapi.input:read inside the response iterator
 * Parameter `vars` for the WSAPI generic loaders that which variables WSAPI should check to get the physical
-  path of the script, and in which order. Defaults tro trying SCRIPT_FILENAME first and PATH_TRANSLATED second
+  path of the script, and in which order. Defaults to trying SCRIPT_FILENAME first and PATH_TRANSLATED second
 
 I have been doing a lot of web infrastructure work for Lua these past months, and pushing this WSAPI release
 lets me focus on [mk](http://github.com/keplerproject/mk) and [Orbit](http://github/keplerproject/orbit/tree/mk). There
